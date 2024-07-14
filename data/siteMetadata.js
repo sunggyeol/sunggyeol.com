@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Sung Oh',
   author: 'Sung Oh',
   headerTitle: 'Sung Oh',
-  description: 'Software engineers change the world.',
+  description: 'Technology for the people, by the people.',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://www.sunggyeol.com',
