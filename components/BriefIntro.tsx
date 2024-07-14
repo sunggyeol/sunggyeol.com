@@ -11,11 +11,15 @@ export default function Hero() {
     <div className="my-6 flex flex-col items-center gap-x-12 xl:mb-12 xl:flex-row">
       <div className="max-w-2xl pt-6">
         <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Hi, I’m Homing So
+          Hi, I’m Sung Oh
         </h1>
         <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
           <strong>{`A `}</strong>
-          {`Computer Science Student at Virginia Tech. Software Engineer Intern at Fasoo. Research Assistant at IDEEAS Lab`}
+          {`Computer Science Student at Virginia Tech.`}
+          <br />
+          {`Software Engineer Intern at Fasoo.`}
+          <br />
+          {`Research Assistant at IDEEAS Lab`}
         </h2>
       </div>
       <AvatarLayout content={mainContent}>
