@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://www.sunggyeol.com',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteRepo: 'https://github.com/sunggyeol/sunggyeol.com',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   // mastodon: 'https://mastodon.social/@mastodonuser',
