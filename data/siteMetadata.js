@@ -13,7 +13,7 @@ const siteMetadata = {
   // mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'sunggyeol@vt.edu',
   github: 'https://github.com/sunggyeol',
-  x: 'https://twitter.com/x',
+  // x: 'https://twitter.com/x',
   // twitter: 'https://twitter.com/Twitter',
   // facebook: 'https://facebook.com',
   // youtube: 'https://youtube.com',
