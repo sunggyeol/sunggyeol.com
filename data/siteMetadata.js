@@ -5,7 +5,7 @@ const siteMetadata = {
   headerTitle: 'Sung Oh',
   description: 'Software engineers change the world.',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://www.sunggyeol.com',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
