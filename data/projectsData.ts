@@ -7,21 +7,30 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Google Datacenter Workload Characterization',
+    description: `Description goes here.`,
+    imgSrc: '/static/images/DatacenterCharacterization.png',
+    href: 'https://drive.google.com/file/d/1xJLmw61dM8wPxNKOyRv0A5IdkXQ62hr_/view',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Solar Powered Autonomous Drone',
+    description: `Description goes here.`,
+    imgSrc: '/static/images/Drone.png',
+    href: 'https://drive.google.com/file/d/1rs3BygTYegXe2XD3JpCKoBTyJsH6-idZ/view',
   },
+  {
+    title: 'Smart Workout Tracking Solution for Outdoor Fitness',
+    description: `Description goes here.`,
+    imgSrc: '/static/images/SmartWorkoutTracking.png',
+    href: 'https://drive.google.com/file/d/1iuaM5lV05atPckfj78h5cdewAQM3ny7X/view',
+  },
+  {
+    title: 'Fintellection AI',
+    description: `Description goes here.`,
+    imgSrc: '/static/images/Fintellection.jpg',
+    href: 'https://www.fintellection.com/',
+  },
+
 ]
 
 export default projectsData
