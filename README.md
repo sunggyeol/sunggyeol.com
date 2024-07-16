@@ -1,6 +1,6 @@
-# Personal Website
+# Sung Oh's Personal Website
 
-This is my personal website, built using the Tailwind Next.js Starter Template by Timothy Lin.
+This is [Sung Oh](https://www.linkedin.com/in/sungoh/)'s personal website, built using the [Tailwind Next.js Starter Template](https://github.com/timlrx/tailwind-nextjs-starter-blog).
 
 ## Features
 
@@ -37,12 +37,11 @@ This is my personal website, built using the Tailwind Next.js Starter Template b
 1. Clone the repo
 
 ```bash
-npx degit 'timlrx/tailwind-nextjs-starter-blog'
+npx degit 'sunggyeol/sunggyeol.com'
 ```
 
 2. Personalize `siteMetadata.js` (site related information)
-3. Modify the content security policy in `next.config.js` if you want to use
-   other analytics provider or a commenting solution other than giscus.
+3. Modify the content security policy in `next.config.js` if you want to use other analytics provider or a commenting solution other than giscus.
 4. Personalize `authors/default.md` (main author)
 5. Modify `projectsData.ts`
 6. Modify `headerNavLinks.ts` to customize navigation links
@@ -150,7 +149,7 @@ canonicalUrl: https://tailwind-nextjs-starter-blog.vercel.app/blog/introducing-t
 
 ### GitHub Pages
 
-A [`pages.yml`](.github/workflows/pages.yml) workflow is already provided. Simply select "GitHub Actions" in: `Settings > Pages > Build and deployment > Source`.
+A [`pages.yml`](.github/workflows/pages.yml) workflow is already provided. Simply select "GitHub Actions" in: `Settings > Pages > Build and deployment > Source”.
 
 ### Vercel
 
@@ -173,7 +172,9 @@ $ EXPORT=1 UNOPTIMIZED=1 yarn build
 Then, deploy the generated `out` folder or run `npx serve out` it locally.
 
 > [!IMPORTANT]
-> If deploying with a URL base path, like https://example.org/myblog you need an extra `BASE_PATH` shell-var to the build command:
+> If deploying with a URL base path
+
+, like https://example.org/myblog you need an extra `BASE_PATH` shell-var to the build command:
 >
 > ```sh
 > $ EXPORT=1 UNOPTIMIZED=1 BASE_PATH=/myblog yarn build
@@ -192,10 +193,8 @@ Consider removing the following features that cannot be used in a static build:
 - [How can I add a custom MDX component?](/faq/custom-mdx-component.md)
 - [How can I customize the `kbar` search?](/faq/customize-kbar-search.md)
 
-## Support
+## License
 
-Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/timlrx).
+[MIT](https://github.com/sunggyeol/sunggyeol.com/LICENSE) © 2024 Sung Oh
 
-## Licence
-
-[MIT](https://github.com/timlrx/tailwind-nextjs-starter-blog/blob/main/LICENSE) © [Timothy Lin](https://www.timlrx.com)
+Originally based on the Tailwind Next.js Starter Blog template by [Timothy Lin](https://www.timlrx.com)
