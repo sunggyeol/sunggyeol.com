@@ -6,7 +6,8 @@ export const metadata = genPageMetadata({ title: 'Publications' })
 export default function Page() {
   const publications = [
     {
-      title: 'Explore Public’s Perspectives on Generative AI in Computer Science (CS) Education: A Social Media Data Analysis',
+      title:
+        'Explore Public’s Perspectives on Generative AI in Computer Science (CS) Education: A Social Media Data Analysis',
       authors: 'Oh, S., Cao, Y., Katz, A., & Zhao, J.',
       conference: 'IEEE Frontiers in Education Conference',
       year: 2024,
@@ -22,7 +23,8 @@ export default function Page() {
             <strong>{pub.authors}</strong> ({pub.year}).{' '}
             <a href={pub.link} target="_blank" rel="noopener noreferrer">
               {pub.title}
-            </a>. <em>{pub.conference}</em>.
+            </a>
+            . <em>{pub.conference}</em>.
           </li>
         ))}
       </ul>
