@@ -1,11 +1,14 @@
-import { ReactNode } from 'react'
+import { ReactNode } from "react";
 
 interface PublicationLayoutProps {
-  children: ReactNode
-  title: string
+  children: ReactNode;
+  title: string;
 }
 
-export default function PublicationLayout({ children, title }: PublicationLayoutProps) {
+export default function PublicationLayout({
+  children,
+  title,
+}: PublicationLayoutProps) {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -19,5 +22,5 @@ export default function PublicationLayout({ children, title }: PublicationLayout
         </div>
       </div>
     </>
-  )
+  );
 }

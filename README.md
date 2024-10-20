@@ -175,7 +175,7 @@ Then, deploy the generated `out` folder or run `npx serve out` it locally.
 > If deploying with a URL base path
 
 , like https://example.org/myblog you need an extra `BASE_PATH` shell-var to the build command:
->
+
 > ```sh
 > $ EXPORT=1 UNOPTIMIZED=1 BASE_PATH=/myblog yarn build
 > ```
