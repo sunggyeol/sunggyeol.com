@@ -1,6 +1,10 @@
+import Script from 'next/script';
+
 export function GoogleTagManagerHead() {
     return (
-        <script
+        <Script
+            id="gtm-script"
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
                 __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -16,10 +20,11 @@ export function GoogleTagManagerBody() {
     return (
         <noscript>
             <iframe
+                title="Google Tag Manager"
                 src="https://www.googletagmanager.com/ns.html?id=GTM-NF82FN4S"
                 height="0"
                 width="0"
-                style={{ display: 'none', visibility: 'hidden' }}
+                style={{ display: "none", visibility: "hidden" }}
             />
         </noscript>
     );
