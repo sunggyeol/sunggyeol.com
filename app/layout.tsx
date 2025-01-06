@@ -12,7 +12,10 @@ import siteMetadata from "@/data/siteMetadata";
 import { ThemeProviders } from "./theme-providers";
 import { Metadata } from "next";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
-import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";
+import {
+  GoogleTagManagerHead,
+  GoogleTagManagerBody,
+} from "@/components/GoogleTagManager";
 
 const space_grotesk = Space_Grotesk({
   subsets: ["latin"],
