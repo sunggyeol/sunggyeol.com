@@ -19,7 +19,7 @@ const siteMetadata = {
   // youtube: 'https://youtube.com',
   linkedin: "https://www.linkedin.com/in/sungoh/",
   // threads: 'https://www.threads.net',
-  instagram: "https://www.instagram.com/sung___oh",
+  instagram: "https://www.instagram.com/sung.ohh/",
   locale: "en-US",
   analytics: {
     // If you want to use an analytics provider you have to add it to the
