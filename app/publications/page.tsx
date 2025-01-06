@@ -11,7 +11,7 @@ export default function Page() {
       authors: "Oh, S., Cao, Y., Katz, A., & Zhao, J.",
       conference: "IEEE Frontiers in Education Conference",
       year: 2024,
-      link: "https://2024.fie-conference.org/",
+      link: "https://drive.google.com/file/d/12TGoJtDX3o3L8F0JUSpXQySHZdB3ED4W/view?usp=sharing/",
     },
   ];
 

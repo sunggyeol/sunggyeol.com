@@ -7,11 +7,17 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: "VT Copilot",
+    description: `An intelligent assistant for Virginia Tech students to find the best professors and make informed course decisions. Features include professor recommendations, grade distribution analysis, and Rate My Professors integration, built using Next.js, FastAPI, and SQLite.`,
+    imgSrc: "/static/images/VT_Copilot.png",
+    href: "http://vtcopilot.com/",
+  },
+  {
     title:
       "Explore Public's Perspectives on Generative AI in Computer Science (CS) Education: A Social Media Data Analysis",
     description: `This project involved analyzing public sentiment towards Generative AI in CS education using both BERT-based models and Large Language Models (LLMs). I collected and filtered Reddit comments to identify key concerns and benefits of Generative AI tools in educational settings. The findings reveal a general positive sentiment towards the use of AI for learning but also highlight challenges such as academic dishonesty and over-reliance on AI.`,
     imgSrc: "/static/images/GAI_CS_Education.png",
-    href: "https://2024.fie-conference.org/",
+    href: "https://drive.google.com/file/d/12TGoJtDX3o3L8F0JUSpXQySHZdB3ED4W/view?usp=sharing",
   },
   {
     title: "Fintellection",
