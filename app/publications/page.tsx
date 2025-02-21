@@ -10,7 +10,7 @@ export default function Page() {
         "Boosting Diary Study Outcomes with a Fine-Tuned Large Language Model",
       authors: "Oh, S., Zhao, J., Russo, C., & Bolmer Jr., M.",
       conference:
-        "CHI EA '25: Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (Under Review)",
+        "CHI EA '25: Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (Accepted)",
       year: 2025,
     },
     {
