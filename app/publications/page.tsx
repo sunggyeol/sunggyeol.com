@@ -12,6 +12,7 @@ export default function Page() {
       conference:
         "CHI EA '25: Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (Accepted)",
       year: 2025,
+      link: "https://drive.google.com/file/d/1Fwh_-O2cVDmcQnH8Rr2ZeVUoldlNBqkd/view?usp=sharing"
     },
     {
       title:
@@ -27,6 +28,7 @@ export default function Page() {
       authors: "Oh, S., Cao, Y., Katz, A., & Zhao, J.",
       conference: "IEEE Frontiers in Education Conference",
       year: 2024,
+      link: "https://doi.org/10.1109/FIE61694.2024.10893102"
     },
   ];
 
@@ -35,7 +37,14 @@ export default function Page() {
       <ul>
         {publications.map((pub, index) => (
           <li key={index}>
-            <strong>{pub.authors}</strong> ({pub.year}). {pub.title}{" "}
+            <strong>{pub.authors}</strong> ({pub.year}). {" "}
+            {pub.link ? (
+              <a href={pub.link} target="_blank" rel="noopener noreferrer">
+                {pub.title}
+              </a>
+            ) : (
+              pub.title
+            )}{" "}
             <em>{pub.conference}</em>.
           </li>
         ))}
