@@ -12,7 +12,7 @@ export default function Page() {
       conference:
         "CHI EA '25: Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (Accepted)",
       year: 2025,
-      link: "https://drive.google.com/file/d/1Fwh_-O2cVDmcQnH8Rr2ZeVUoldlNBqkd/view?usp=sharing",
+      link: "https://doi.org/10.1145/3706599.3719287",
     },
     {
       title:
