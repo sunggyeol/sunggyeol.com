@@ -7,20 +7,28 @@ export default function Page() {
   const publications = [
     {
       title:
+        "Optimizing Diary Studies Learning Outcomes with Fine-Tuned Large Language Models on the DiaryQuest Platform",
+      authors:
+        "Oh, S., Zhao, J., Russo, C., Bolmer Jr., M., Jeong, J., Fan, J., Cao, Y., Wang, W., & McCrickard, S.",
+      conference: "IEEE Frontiers in Education Conference (Accepted)",
+      year: 2025,
+    },
+    {
+      title:
+        "Structuring Collaborative Reflection: Integrating Diary Study and Focus Group Discussion",
+      authors:
+        "Fan, J., Zhao, J., Oh, S., Bolmer Jr., M., Lee, Y., Flammer, N., Chen, Y., & McCrickard, S.",
+      conference: "Companion Publication of the 2025 Conference on Computer-Supported Cooperative Work and Social Computing (Accepted)",
+      year: 2025,
+    },
+    {
+      title:
         "Boosting Diary Study Outcomes with a Fine-Tuned Large Language Model",
       authors: "Oh, S., Zhao, J., Russo, C., & Bolmer Jr., M.",
       conference:
         "CHI EA '25: Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems",
       year: 2025,
       link: "https://doi.org/10.1145/3706599.3719287",
-    },
-    {
-      title:
-        "Optimizing Diary Studies Learning Outcomes with Fine-Tuned Large Language Models on the DiaryQuest Platform",
-      authors:
-        "Oh, S., Zhao, J., Russo, C., Bolmer Jr., M., Jeong, J., Fan, J., Cao, Y., Wang, W., & McCrickard, S.",
-      conference: "IEEE Frontiers in Education Conference (Under Review)",
-      year: 2025,
     },
     {
       title:
