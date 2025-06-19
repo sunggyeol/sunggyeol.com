@@ -18,7 +18,8 @@ export default function Page() {
         "Structuring Collaborative Reflection: Integrating Diary Study and Focus Group Discussion",
       authors:
         "Fan, J., Zhao, J., Oh, S., Bolmer Jr., M., Lee, Y., Flammer, N., Chen, Y., & McCrickard, S.",
-      conference: "Companion Publication of the 2025 Conference on Computer-Supported Cooperative Work and Social Computing (Accepted)",
+      conference:
+        "Companion Publication of the 2025 Conference on Computer-Supported Cooperative Work and Social Computing (Accepted)",
       year: 2025,
     },
     {
